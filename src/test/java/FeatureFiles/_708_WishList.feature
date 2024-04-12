@@ -1,0 +1,1 @@
+Feature: Wish List functionality
