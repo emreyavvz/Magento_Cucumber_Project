@@ -42,4 +42,10 @@ public class ParentPage {
         //sayfaya ESC tuşu gönderildi
     }
 
+    public void myHover(WebElement element){
+        wait.until(ExpectedConditions.visibilityOf(element));
+        Assert.assertTrue(element.isDisplayed());
+        new Actions(GWD.getDriver()).moveToElement(element).build().perform();
+    }
+
 }
