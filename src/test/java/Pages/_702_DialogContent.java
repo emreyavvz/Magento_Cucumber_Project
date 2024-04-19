@@ -39,7 +39,7 @@ public class _702_DialogContent extends ParentPage {
 
     public WebElement getWebElement(String strElement) {
         switch (strElement) {
-            case "einwilligen" : return this.einwilligen;
+            case "einwilligen" : return this.einwilligen ;
             case "Sign In": return this.signIn;
             case "mailInput": return this.mailInput;
             case "passwordInput": return this.passwordInput;

@@ -59,7 +59,7 @@ public class _702_StepDefinitions {
 
     }
 
-    @Then("User receives an error message" )
+    @Then("User receives an error message")
     public void userReceivesAnErrorMessage() {
         dc.verifyContainsText(dc.requiredField,"required field");
     }
