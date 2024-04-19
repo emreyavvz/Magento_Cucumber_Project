@@ -11,24 +11,33 @@ This project aims to automate testing for various user stories in a Magento-base
 
 ### Login Functionality
 
-- **Scenario 2:** User Login
+- **Scenario 1:** User Login
   - Verify that a registered user can log in to their account using valid credentials.
+ 
+- **Scenario 2:** Login with invalid username
+  - Verify that a registered user can't log in to their account using invalid credentials.
+
+- **Scenario 3:** Login with invalid password
+  - Verify that a registered user can't log in to their account using invalid credentials.
+
+- **Scenario 4:** Login with empty fields
+  - Verify that a registered user can't log in to their account using invalid credentials.
 
 ### Address Addition
 
-- **Scenario 3:** Adding an Address
+- **Scenario 1:** Adding an Address
   - Verify that a logged-in user can add a new address to their account.
 
 ### TAB Menu
 
-- **Scenario 4:** Navigation through TAB Menu
+- **Scenario 1:** Navigation through TAB Menu
   - Verify that the TAB menu navigation works correctly across different sections of the website.
 
 ### Shopping Cart Operations
 
-- **Scenario 5:** Adding Items to the Cart
+- **Scenario 1:** Adding Items to the Cart
   - Verify that users can add items to their shopping cart.
-- **Scenario 6:** Removing Items from the Cart
+- **Scenario 2:** Removing Items from the Cart
   - Verify that users can remove items from their shopping cart.
 
 ### Product Ordering
@@ -38,14 +47,14 @@ This project aims to automate testing for various user stories in a Magento-base
 
 ### Search Functionality
 
-- **Scenario 8:** Product Search
+- **Scenario 1:** Product Search
   - Verify that the search functionality returns relevant results based on user input.
 
 ### Wish List Management
 
-- **Scenario 9:** Adding Items to Wish List
+- **Scenario 1:** Adding Items to Wish List
   - Verify that users can add items to their wish list.
-- **Scenario 10:** Removing Items from Wish List
+- **Scenario 2:** Removing Items from Wish List
   - Verify that users can remove items from their wish list.
 
 ## Technologies Used
